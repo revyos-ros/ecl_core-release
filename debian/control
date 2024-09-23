@@ -1,0 +1,13 @@
+Source: ros-humble-ecl-mpl
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ecl-build, ros-humble-ecl-license, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_mpl
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-mpl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-license, ros-humble-ros-workspace
+Description: Metaprogramming tools move alot of runtime calculations to be shifted to compile time.
+ This has only very elementary structures at this stage.
