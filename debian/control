@@ -1,0 +1,13 @@
+Source: ros-humble-ecl-formatters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-ros, ros-humble-ecl-build, ros-humble-ecl-config, ros-humble-ecl-converters, ros-humble-ecl-exceptions, ros-humble-ecl-license, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_formatters
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-formatters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-config, ros-humble-ecl-converters, ros-humble-ecl-exceptions, ros-humble-ecl-license, ros-humble-ros-workspace
+Description: The formatters here simply format various input types to a specified text format.
+ They can be used with most streaming types (including both ecl and stl streams).
