@@ -1,0 +1,12 @@
+Source: ros-humble-ecl-utilities
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ecl-build, ros-humble-ecl-concepts, ros-humble-ecl-license, ros-humble-ecl-mpl, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_utilities
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-utilities
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-concepts, ros-humble-ecl-license, ros-humble-ecl-mpl, ros-humble-ros-workspace
+Description: Includes various supporting tools and utilities for c++ programming.
