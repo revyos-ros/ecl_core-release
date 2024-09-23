@@ -1,0 +1,12 @@
+Source: ros-humble-ecl-concepts
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ecl-build, ros-humble-ecl-config, ros-humble-ecl-license, ros-humble-ecl-type-traits, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_concepts
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-concepts
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-config, ros-humble-ecl-license, ros-humble-ecl-type-traits, ros-humble-ros-workspace
+Description: Introduces a compile time concept checking mechanism that can be used most commonly to check for required functionality when passing template arguments.
