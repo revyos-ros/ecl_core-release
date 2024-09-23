@@ -1,0 +1,13 @@
+Source: ros-humble-ecl-core-apps
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-ros, ros-humble-ecl-build, ros-humble-ecl-command-line, ros-humble-ecl-config, ros-humble-ecl-containers, ros-humble-ecl-converters, ros-humble-ecl-devices, ros-humble-ecl-errors, ros-humble-ecl-exceptions, ros-humble-ecl-formatters, ros-humble-ecl-geometry, ros-humble-ecl-ipc, ros-humble-ecl-license, ros-humble-ecl-linear-algebra, ros-humble-ecl-sigslots, ros-humble-ecl-streams, ros-humble-ecl-threads, ros-humble-ecl-time-lite, ros-humble-ecl-type-traits, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_core_apps
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-core-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-build, ros-humble-ecl-command-line, ros-humble-ecl-config, ros-humble-ecl-containers, ros-humble-ecl-converters, ros-humble-ecl-devices, ros-humble-ecl-errors, ros-humble-ecl-exceptions, ros-humble-ecl-formatters, ros-humble-ecl-geometry, ros-humble-ecl-ipc, ros-humble-ecl-license, ros-humble-ecl-linear-algebra, ros-humble-ecl-sigslots, ros-humble-ecl-streams, ros-humble-ecl-threads, ros-humble-ecl-time-lite, ros-humble-ecl-type-traits, ros-humble-ros-workspace
+Description: This includes a suite of programs demo'ing various aspects of the ecl_core.
+ It also includes various benchmarking and utility programs for use primarily with embedded systems.
