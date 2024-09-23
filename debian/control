@@ -1,0 +1,13 @@
+Source: ros-humble-ecl-converters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ecl-build, ros-humble-ecl-concepts, ros-humble-ecl-config, ros-humble-ecl-errors, ros-humble-ecl-exceptions, ros-humble-ecl-license, ros-humble-ecl-mpl, ros-humble-ecl-type-traits, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-converters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-concepts, ros-humble-ecl-config, ros-humble-ecl-errors, ros-humble-ecl-exceptions, ros-humble-ecl-license, ros-humble-ecl-mpl, ros-humble-ecl-type-traits, ros-humble-ros-workspace
+Description: Some fast/convenient type converters, mostly for char strings or strings.
+ These are not really fully fleshed out, alot of them could use the addition for the whole range of fundamental types (e.g. all integers, not just int, unsigned int). They will come as the need arises.
