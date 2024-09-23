@@ -1,0 +1,13 @@
+Source: ros-humble-ecl-ipc
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ecl-build, ros-humble-ecl-config, ros-humble-ecl-errors, ros-humble-ecl-exceptions, ros-humble-ecl-license, ros-humble-ecl-threads, ros-humble-ecl-time, ros-humble-ecl-time-lite, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_ipc
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-ipc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-build, ros-humble-ecl-config, ros-humble-ecl-errors, ros-humble-ecl-exceptions, ros-humble-ecl-license, ros-humble-ecl-threads, ros-humble-ecl-time, ros-humble-ecl-time-lite, ros-humble-ros-workspace
+Description: Interprocess mechanisms vary greatly across platforms - sysv, posix, win32, there are more than a few.
+ This package provides an infrastructure to allow for developing cross platform c++ wrappers around the lower level c api's that handle these mechanisms. These make it not only easier to utilise such mechanisms, but allow it to be done consistently across platforms.
