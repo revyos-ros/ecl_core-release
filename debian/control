@@ -1,0 +1,13 @@
+Source: ros-humble-ecl-containers
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ecl-build, ros-humble-ecl-config, ros-humble-ecl-converters, ros-humble-ecl-errors, ros-humble-ecl-exceptions, ros-humble-ecl-formatters, ros-humble-ecl-license, ros-humble-ecl-mpl, ros-humble-ecl-type-traits, ros-humble-ecl-utilities, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_containers
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-containers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-config, ros-humble-ecl-converters, ros-humble-ecl-errors, ros-humble-ecl-exceptions, ros-humble-ecl-formatters, ros-humble-ecl-license, ros-humble-ecl-mpl, ros-humble-ecl-type-traits, ros-humble-ecl-utilities, ros-humble-ros-workspace
+Description: The containers included here are intended to extend the stl containers.
+ In all cases, these implementations are designed to implement c++ conveniences and safety where speed is not sacrificed. Also includes techniques for memory debugging of common problems such as buffer overruns.
