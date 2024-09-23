@@ -1,0 +1,12 @@
+Source: ros-humble-ecl-devices
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ecl-build, ros-humble-ecl-config, ros-humble-ecl-containers, ros-humble-ecl-errors, ros-humble-ecl-license, ros-humble-ecl-mpl, ros-humble-ecl-threads, ros-humble-ecl-type-traits, ros-humble-ecl-utilities, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_devices
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-devices
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-config, ros-humble-ecl-containers, ros-humble-ecl-errors, ros-humble-ecl-license, ros-humble-ecl-mpl, ros-humble-ecl-threads, ros-humble-ecl-type-traits, ros-humble-ecl-utilities, ros-humble-ros-workspace
+Description: Provides an extensible and standardised framework for input-output devices.
