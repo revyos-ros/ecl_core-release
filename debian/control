@@ -1,0 +1,12 @@
+Source: ros-humble-ecl-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-ros, ros-humble-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_core
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-command-line, ros-humble-ecl-concepts, ros-humble-ecl-containers, ros-humble-ecl-converters, ros-humble-ecl-core-apps, ros-humble-ecl-devices, ros-humble-ecl-eigen, ros-humble-ecl-exceptions, ros-humble-ecl-formatters, ros-humble-ecl-geometry, ros-humble-ecl-ipc, ros-humble-ecl-linear-algebra, ros-humble-ecl-math, ros-humble-ecl-mpl, ros-humble-ecl-sigslots, ros-humble-ecl-statistics, ros-humble-ecl-streams, ros-humble-ecl-threads, ros-humble-ecl-time, ros-humble-ecl-type-traits, ros-humble-ecl-utilities, ros-humble-ros-workspace
+Description: A set of tools and interfaces extending the capabilities of c++ to provide a lightweight, consistent interface with a focus for control programming.
