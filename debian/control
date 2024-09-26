@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-mpl
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_mpl
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-mpl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Description: Metaprogramming tools move alot of runtime calculations to be shifted to compile time.
+ This has only very elementary structures at this stage.
