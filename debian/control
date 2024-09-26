@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-converters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-concepts, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-license, ros-jazzy-ecl-mpl, ros-jazzy-ecl-type-traits, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-converters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-concepts, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-license, ros-jazzy-ecl-mpl, ros-jazzy-ecl-type-traits, ros-jazzy-ros-workspace
+Description: Some fast/convenient type converters, mostly for char strings or strings.
+ These are not really fully fleshed out, alot of them could use the addition for the whole range of fundamental types (e.g. all integers, not just int, unsigned int). They will come as the need arises.
