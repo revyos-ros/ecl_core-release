@@ -1,3 +1,51 @@
+## ecl_core (jazzy) - 1.2.1-6
+
+The packages in the `ecl_core` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r jazzy ecl_core --override-release-repository-push-url git@github.com:revyos-ros/ecl_core-release.git` on `Thu, 26 Sep 2024 03:42:59 -0000`
+
+These packages were released:
+- `ecl_command_line`
+- `ecl_concepts`
+- `ecl_containers`
+- `ecl_converters`
+- `ecl_core`
+- `ecl_core_apps`
+- `ecl_devices`
+- `ecl_eigen`
+- `ecl_exceptions`
+- `ecl_filesystem`
+- `ecl_formatters`
+- `ecl_geometry`
+- `ecl_ipc`
+- `ecl_linear_algebra`
+- `ecl_manipulators`
+- `ecl_math`
+- `ecl_mobile_robot`
+- `ecl_mpl`
+- `ecl_sigslots`
+- `ecl_statistics`
+- `ecl_streams`
+- `ecl_threads`
+- `ecl_time`
+- `ecl_type_traits`
+- `ecl_utilities`
+
+Version of package(s) in repository `ecl_core`:
+
+- upstream repository: https://github.com/stonier/ecl_core.git
+- release repository: https://github.com/revyos-ros/ecl_core-release.git
+- rosdistro version: `1.2.1-5`
+- old version: `1.2.1-5`
+- new version: `1.2.1-6`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ecl_core (humble) - 1.2.1-2
 
 The packages in the `ecl_core` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r humble ecl_core --override-release-repository-push-url git@github.com:revyos-ros/ecl_core-release.git` on `Mon, 23 Sep 2024 04:51:51 -0000`
