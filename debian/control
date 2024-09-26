@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-ipc
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-license, ros-jazzy-ecl-threads, ros-jazzy-ecl-time, ros-jazzy-ecl-time-lite, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_ipc
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-ipc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-license, ros-jazzy-ecl-threads, ros-jazzy-ecl-time, ros-jazzy-ecl-time-lite, ros-jazzy-ros-workspace
+Description: Interprocess mechanisms vary greatly across platforms - sysv, posix, win32, there are more than a few.
+ This package provides an infrastructure to allow for developing cross platform c++ wrappers around the lower level c api's that handle these mechanisms. These make it not only easier to utilise such mechanisms, but allow it to be done consistently across platforms.
