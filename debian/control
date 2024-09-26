@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-devices
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-containers, ros-jazzy-ecl-errors, ros-jazzy-ecl-license, ros-jazzy-ecl-mpl, ros-jazzy-ecl-threads, ros-jazzy-ecl-type-traits, ros-jazzy-ecl-utilities, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_devices
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-devices
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-config, ros-jazzy-ecl-containers, ros-jazzy-ecl-errors, ros-jazzy-ecl-license, ros-jazzy-ecl-mpl, ros-jazzy-ecl-threads, ros-jazzy-ecl-type-traits, ros-jazzy-ecl-utilities, ros-jazzy-ros-workspace
+Description: Provides an extensible and standardised framework for input-output devices.
