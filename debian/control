@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-mobile-robot
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-errors, ros-jazzy-ecl-formatters, ros-jazzy-ecl-geometry, ros-jazzy-ecl-license, ros-jazzy-ecl-linear-algebra, ros-jazzy-ecl-math, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_mobile_robot
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-mobile-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-build, ros-jazzy-ecl-errors, ros-jazzy-ecl-formatters, ros-jazzy-ecl-geometry, ros-jazzy-ecl-license, ros-jazzy-ecl-linear-algebra, ros-jazzy-ecl-math, ros-jazzy-ros-workspace
+Description: Contains transforms (e.g.
+ differential drive inverse kinematics) for the various types of mobile robot platforms.
