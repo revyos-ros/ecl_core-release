@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-exceptions
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-ros, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_exceptions
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-exceptions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Description: Template based exceptions - these are simple and practical and avoid the proliferation of exception types.
+ Although not syntatactically ideal, it is convenient and eminently practical.
