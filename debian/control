@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-command-line
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_command_line
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-command-line
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Description: Embeds the TCLAP library inside the ecl.
+ This is a very convenient command line parser in templatised c++.
