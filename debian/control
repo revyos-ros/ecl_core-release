@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-concepts
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-license, ros-jazzy-ecl-type-traits, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_concepts
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-concepts
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-config, ros-jazzy-ecl-license, ros-jazzy-ecl-type-traits, ros-jazzy-ros-workspace
+Description: Introduces a compile time concept checking mechanism that can be used most commonly to check for required functionality when passing template arguments.
