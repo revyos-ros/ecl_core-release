@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-threads
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-concepts, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-license, ros-jazzy-ecl-time, ros-jazzy-ecl-utilities, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_threads
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-threads
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-build, ros-jazzy-ecl-concepts, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-license, ros-jazzy-ecl-time, ros-jazzy-ecl-utilities, ros-jazzy-ros-workspace
+Description: This package provides the c++ extensions for a variety of threaded programming tools.
+ These are usually different on different platforms, so the architecture for a cross-platform framework is also implemented.
