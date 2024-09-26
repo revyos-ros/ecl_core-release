@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-formatters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-ros, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-converters, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_formatters
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-formatters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-config, ros-jazzy-ecl-converters, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Description: The formatters here simply format various input types to a specified text format.
+ They can be used with most streaming types (including both ecl and stl streams).
