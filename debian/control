@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-utilities
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-concepts, ros-jazzy-ecl-license, ros-jazzy-ecl-mpl, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_utilities
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-utilities
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-concepts, ros-jazzy-ecl-license, ros-jazzy-ecl-mpl, ros-jazzy-ros-workspace
+Description: Includes various supporting tools and utilities for c++ programming.
