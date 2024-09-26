@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-filesystem
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_filesystem
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-filesystem
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Description: Cross platform filesystem utilities (until c++11 makes its way in).
