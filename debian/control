@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-containers
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-converters, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-formatters, ros-jazzy-ecl-license, ros-jazzy-ecl-mpl, ros-jazzy-ecl-type-traits, ros-jazzy-ecl-utilities, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_containers
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-containers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-config, ros-jazzy-ecl-converters, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-formatters, ros-jazzy-ecl-license, ros-jazzy-ecl-mpl, ros-jazzy-ecl-type-traits, ros-jazzy-ecl-utilities, ros-jazzy-ros-workspace
+Description: The containers included here are intended to extend the stl containers.
+ In all cases, these implementations are designed to implement c++ conveniences and safety where speed is not sacrificed. Also includes techniques for memory debugging of common problems such as buffer overruns.
