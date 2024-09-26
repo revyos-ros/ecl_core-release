@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-linear-algebra
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-converters, ros-jazzy-ecl-eigen, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-formatters, ros-jazzy-ecl-license, ros-jazzy-ecl-math, ros-jazzy-sophus, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_linear_algebra
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-linear-algebra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-build, ros-jazzy-ecl-converters, ros-jazzy-ecl-eigen, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-formatters, ros-jazzy-ecl-license, ros-jazzy-ecl-math, ros-jazzy-sophus, ros-jazzy-ros-workspace
+Description: Ecl frontend to a linear matrix package (currently eigen).
