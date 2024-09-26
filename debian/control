@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-sigslots
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-license, ros-jazzy-ecl-threads, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/ecl_sigslots
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-sigslots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-config, ros-jazzy-ecl-license, ros-jazzy-ecl-threads, ros-jazzy-ros-workspace
+Description: Provides a signal/slot mechanism (in the same vein as qt sigslots, boost::signals etc for intra-process communication.
+ These include some improvements - they do not need a preprocessor, are fully type safe, allow for simple connections via a posix style string identifier and are multithread-safe.
