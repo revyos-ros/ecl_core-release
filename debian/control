@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-ros, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_core
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-command-line, ros-jazzy-ecl-concepts, ros-jazzy-ecl-containers, ros-jazzy-ecl-converters, ros-jazzy-ecl-core-apps, ros-jazzy-ecl-devices, ros-jazzy-ecl-eigen, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-formatters, ros-jazzy-ecl-geometry, ros-jazzy-ecl-ipc, ros-jazzy-ecl-linear-algebra, ros-jazzy-ecl-math, ros-jazzy-ecl-mpl, ros-jazzy-ecl-sigslots, ros-jazzy-ecl-statistics, ros-jazzy-ecl-streams, ros-jazzy-ecl-threads, ros-jazzy-ecl-time, ros-jazzy-ecl-type-traits, ros-jazzy-ecl-utilities, ros-jazzy-ros-workspace
+Description: A set of tools and interfaces extending the capabilities of c++ to provide a lightweight, consistent interface with a focus for control programming.
