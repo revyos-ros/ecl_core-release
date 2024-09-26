@@ -1,0 +1,13 @@
+Source: ros-jazzy-ecl-core-apps
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-ros, ros-jazzy-ecl-build, ros-jazzy-ecl-command-line, ros-jazzy-ecl-config, ros-jazzy-ecl-containers, ros-jazzy-ecl-converters, ros-jazzy-ecl-devices, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-formatters, ros-jazzy-ecl-geometry, ros-jazzy-ecl-ipc, ros-jazzy-ecl-license, ros-jazzy-ecl-linear-algebra, ros-jazzy-ecl-sigslots, ros-jazzy-ecl-streams, ros-jazzy-ecl-threads, ros-jazzy-ecl-time-lite, ros-jazzy-ecl-type-traits, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_core_apps
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-core-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-build, ros-jazzy-ecl-command-line, ros-jazzy-ecl-config, ros-jazzy-ecl-containers, ros-jazzy-ecl-converters, ros-jazzy-ecl-devices, ros-jazzy-ecl-errors, ros-jazzy-ecl-exceptions, ros-jazzy-ecl-formatters, ros-jazzy-ecl-geometry, ros-jazzy-ecl-ipc, ros-jazzy-ecl-license, ros-jazzy-ecl-linear-algebra, ros-jazzy-ecl-sigslots, ros-jazzy-ecl-streams, ros-jazzy-ecl-threads, ros-jazzy-ecl-time-lite, ros-jazzy-ecl-type-traits, ros-jazzy-ros-workspace
+Description: This includes a suite of programs demo'ing various aspects of the ecl_core.
+ It also includes various benchmarking and utility programs for use primarily with embedded systems.
